@@ -415,8 +415,7 @@ export function buildSelectableMarkdownCss(options: SelectableMarkdownHtmlOption
       font-weight: 500;
     }
     .xdt-math-block {
-      max-width: 100%;
-      overflow-x: hidden;
+      overflow-x: auto;
       text-align: center;
     }
     .xdt-math-block pre {
